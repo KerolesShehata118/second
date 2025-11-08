@@ -13,7 +13,7 @@ public class firstTest {
             Browser browser = playwright.chromium().launch();
             Page page = browser.newPage();
             page.navigate("https://playwright.dev");
-            assertThat(page).hasTitle(Pattern.compile("Playwright"));
+            assertThat(page).hasTitle(Pattern.compile("kero"));
         }
     }
 }
